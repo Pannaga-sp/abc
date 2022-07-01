@@ -36,7 +36,11 @@ function App() {
           component={SplashScreen}
           options={{ headerShown: false }}
         />
-  
+  <Stack.Screen
+          name="SendPasswordResetEmailScreen"
+          component={SendPasswordResetEmailScreen}
+          options={{ headerShown: false }}
+        />
 
         <Stack.Screen
           name="StartScreen"
