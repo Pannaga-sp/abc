@@ -159,7 +159,7 @@ export default function UserLogin({ navigation }) {
       error={!!password.error} errorText={password.error} secureTextEntry />
       <View style={styles.forgotPassword}>
 
-        <TouchableOpacity onPress={() => navigation.navigate("ResetPasswordScreen")}>
+        <TouchableOpacity onPress={() => navigation.navigate("SendPasswordResetEmailScreen")}>
           <Text style={styles.forgot}>Forgot your password?</Text>
         </TouchableOpacity>
       </View>
