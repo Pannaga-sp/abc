@@ -4,9 +4,11 @@ import SplashBG from "../../../features/SplashBG"
 import Background from "../../../features/Background"
 import Logo from "../../../features/logo"
 import Button from "../../../features/Button"
-
+const { height, width } = useWindowDimensions();
 
 export default function SplashScreen({ navigation }) {
+  
+const { height, width } = useWindowDimensions();
   return (
     <SplashBG>
       <Logo />
